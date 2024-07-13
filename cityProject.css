@@ -1,0 +1,150 @@
+
+.container{
+
+    height: 900px;
+    width: 600px;
+    background-color:beige;
+}
+
+
+.visitKarachi{
+    border-radius: 10px;
+    height: 300px;
+    background-image: url("karaImage2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#head4{
+    display: inline;
+    margin-left: 150px;
+    background-color:beige;
+}
+
+.places{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    background-color:beige;
+    border-radius: 10px;
+}
+
+.places p{
+
+    font-size: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.places img{
+    width: 90px;
+    border-radius: 45px;
+}
+
+.places img:hover{
+
+    width: 110px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.places h6{
+
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.ownCard{
+    height: 300px;
+    background-color:hotpink;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card{
+
+    width: 200px;
+    height: 100px;
+    display: flex;
+    background-color: purple;
+    color: azure;
+    padding: 20px;
+    font-style: italic;
+    border-radius: 7px;
+}
+
+.about p{
+
+    font-size: 10px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.about h5{
+
+    margin: 0px 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.about h6{
+
+    margin: 0px 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.about h6:hover{
+
+    font-size: 15px;
+    color: hotpink;
+}
+
+.about h5:hover{
+
+    font-size: 17px;
+    color: hotpink;
+}
+
+.ownCard img{
+
+    width: 92px;
+    height: 100px;
+    border-radius: 2px;
+}
+
+.ownCard img:hover{
+
+    width: 100px;
+    height: 110px;
+    border-radius: 2px;
+}
+
+.visitKarachi h2{
+
+    color: white;
+    background-color: cadetblue;
+    margin: 30px 0;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+}
+
+.visitKarachi h5{
+
+    color: white;
+    background-color:cornflowerblue;
+    margin: 0 100px;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
